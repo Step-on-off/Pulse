@@ -1,0 +1,26 @@
+{
+  "name": "practice-gulp_bem",
+  "version": "1.0.0",
+  "description": "npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated\r npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated\r npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated\r npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
