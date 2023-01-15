@@ -24,16 +24,16 @@
             font-size: 15px;
         }
     }
+    .title {
+        font-size: 25px;
+        line-height: 25px;
+    }
     .benefits {
-        &__header {
-            font-size: 25px;
-            line-height: 25px;
-        }
         &__item {
             margin-top: 50px;
             width: 220px;
         }
-        &__subheader {
+        &__header {
             font-size: 17px;
             line-height: 17px;
         }
@@ -84,7 +84,7 @@
             margin-top: 35px;
             width: 250px;
         }
-        &__subheader {
+        &__header {
             margin-top: 25px;
         }
         &__descr {
@@ -148,16 +148,16 @@
             font-size: 13px;
         }
     }
+    .title {
+        font-size: 20px;
+        line-height: 20px;
+    }
     .benefits {
         padding: 40px 0 50px 0;
-        &__header {
-            font-size: 20px;
-            line-height: 20px;
-        }
         &__item {
             margin-top: 25px;
         }
-        &__subheader {
+        &__header {
             margin-top: 15px;
         }
         &__descr {
