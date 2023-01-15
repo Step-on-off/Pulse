@@ -43,6 +43,13 @@
         }
         
     }
+    .consultation {
+        min-height: 640px;
+        &__descr {
+            font-size: 17px;
+            line-height: 20px;
+        }
+    }
 }
 @media (max-width: 768px) {
     .container {
@@ -89,6 +96,12 @@
         }
         &__descr {
             margin-top: 17px;
+        }
+    }
+    .title_left {
+        font-size: 24px;
+        br {
+            display: none;
         }
     }
 }
@@ -147,6 +160,12 @@
             height: 35px;
             font-size: 13px;
         }
+        &_subtim {
+            height: 58px;
+            width: 100%;
+            font-size: 16px;
+            margin: 0 auto;
+        }
     }
     .title {
         font-size: 20px;
@@ -162,6 +181,18 @@
         }
         &__descr {
             margin-top: 10px;
+        }
+    }
+    .title_left {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .consultation {
+        min-height: 420px;
+        padding: 50px 0 73px 0;
+        &__descr {
+            font-size: 15px;
+            line-height: 16px;
         }
     }
 }
